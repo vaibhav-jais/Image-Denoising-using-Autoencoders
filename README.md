@@ -1,6 +1,6 @@
 # Image-Denoising-using-Autoencoders with skip connections
 
-
+## Architecture
 
 
 
@@ -11,4 +11,6 @@ The basic architecture used for the denoising is a fully convolutional auto-enco
 
 (b) Decoder - A sequence of deconvolutional layers symmetric to the convolutional layers which reconstructs the input images by decoding (up-sampling operation) the low-dimensional encoded images. 
 
-The corresponding encoder and decoder layers are connected by shortcut connections (skip connections). The main idea behind using the shortcut connections are used to pass feature maps forwardly  
+The corresponding encoder and decoder layers are connected by shortcut connections (skip connections). The main idea behind using the shortcut connections are used to pass feature maps forwardly
+
+## Noise Type
