@@ -14,3 +14,13 @@ The basic architecture used for the denoising is a fully convolutional auto-enco
 The corresponding encoder and decoder layers are connected by shortcut connections (skip connections). The main idea behind using the shortcut connections are used to pass feature maps forwardly
 
 ## Noise Type
+
+In this project,  the images were corrupted with **Pixel-level Gaussian noise** for training and testing. In this Pixel-level Gaussian noise, given an image x, a random Gaussian noise with mean 0 and standard deviation &sigma is added to each pixel uniformly
+
+
+
+
+
+## Results:
+
+The original test images, noised test images and the denoised reconstructed test images obtained by the network are shown in the figure below
