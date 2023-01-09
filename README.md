@@ -24,4 +24,4 @@ In this project,  the images were corrupted with **Pixel-level Gaussian noise** 
 ## Results:
 
 The original test images, noised test images and the denoised reconstructed test images obtained by the network are shown in the figure below
-![Alt Text] (Denoising Results.png)
+[Alt Text] (Denoising Results.png)
