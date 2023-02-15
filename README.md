@@ -8,7 +8,7 @@ The basic architecture used for the denoising is a fully convolutional auto-enco
 
 (b) **Decoder** - A sequence of deconvolutional layers symmetric to the convolutional layers which reconstructs the input images. Deconvolutional layers work roughly like a combination of convolutional and upsampling layers.
 
-The corresponding encoder and decoder layers are connected by shortcut connections (skip connections). The main idea behind using the shortcut connections are used to pass feature maps directly from an early layer of an encoder to a later layer of the decoder. This helps the decoder form more clearly defined decompressions of the input image.
+The corresponding encoder and decoder layers are connected by shortcut connections (skip connections). The main idea behind using the shortcut connections are used to pass feature maps directly from an early layer of an encoder to a later layer of the decoder.Skip connections help to mitigate the problem of vanishing gradient by allowing the gradient to bypass one or more layers,making it easier for the gradient to flow through the network. Additionally with skip connections, the network can learn more abstract features that are combinations of features learned in earlier layers. This helps the decoder form more clearly defined decompressions of the input image.
 
 ## Noise Type
 
