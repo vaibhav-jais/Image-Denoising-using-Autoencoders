@@ -8,7 +8,7 @@ We are living in an era where everyday we deal with visual data such as images a
 
 The basic architecture used for the denoising is a fully convolutional auto-encoder. The network has two main parts: 
 
-(a) **Encoder** - A sequence of  3x3 convolutional layers followed by Pooling, Batch Normalization layer and a ReLU non-linearity layer. The encoder learns to extract the image features at each step separating them from the noise and compresses the input image into a lower dimensional latent representation. Encoder acts as a feature extractor.
+(a) **Encoder** - A sequence of  3x3 convolutional layers followed by Pooling, and a ReLU non-linearity layer. The encoder learns to extract the image features at each step separating them from the noise and compresses the input image into a lower dimensional latent representation. Encoder acts as a feature extractor.
 
 (b) **Decoder** - A sequence of deconvolutional layers symmetric to the convolutional layers which reconstructs the input images. Deconvolutional layers work roughly like a combination of convolutional and upsampling layers.
 
